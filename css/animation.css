@@ -1,0 +1,21 @@
+@keyframes stick {
+    0% {
+    background-color: rgb(253, 253, 253);
+    }
+    5% {
+        rotate: 5deg;
+    }
+    95% {
+        height: 10px;
+        width: 90px;
+        border-radius: 0;
+    }
+    100% {
+    background-color: rgb(252, 0, 0);
+    top: -155px;
+    right: 130%;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    }
+}
